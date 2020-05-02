@@ -1,6 +1,7 @@
 package com.qa.tests;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class DemoTest {
@@ -9,6 +10,7 @@ public class DemoTest {
 	public void sum()
 	{
 		System.out.println("Sum----------------->>>>>>>>>>>>>>>>>>>>>");
+		Reporter.log("Hellooooooooooooooooooooooooooooooooooooooooooo");
 		int a = 10;
 		int b = 20;
 		Assert.assertEquals(30, a+b);
